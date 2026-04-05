@@ -1,7 +1,7 @@
 climate:
   - platform: thermostat
     on_boot_restore_from: memory
-    name: "Pellet kachel"
+    name: ${stove_name}
     id: Stove
     sensor: room_temp_stove
     min_idle_time: 1s

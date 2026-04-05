@@ -37,11 +37,12 @@ wifi:
     password: "Pelletkachel"
 
 substitutions:
-  min_temp: "10"     #set minimum temperature for climate
-  max_temp: "35"     #set maximum temperature for climate
-  temp_unit: "°C"    #set climate unit, use "°C" or "°F"
-  tx_pin_esp: '1'    #TX pin on esp module
-  rx_pin_esp: '3'    #RX pin on esp module
+  min_temp: "10"             #set minimum temperature for climate
+  max_temp: "35"             #set maximum temperature for climate
+  temp_unit: "°C"            #set climate unit, use "°C" or "°F"
+  tx_pin_esp: '1'            #TX pin on esp module
+  rx_pin_esp: '3'            #RX pin on esp module
+  stove_name: "Pellet stove" #stove name shown in Home Assistant
 
 packages:
   duepi:
